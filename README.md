@@ -15,7 +15,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 python dependencies
 
-```pandas 1.3.4
+```
+pandas 1.3.4
 seaborn 0.12.2
 matplotlib 3.4.3
 numpy 1.22.3
