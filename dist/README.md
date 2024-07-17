@@ -60,11 +60,12 @@ user@host:~$ python3 main.py -r sample-reads-P30419.csv
 The sequence with highest score is the likely protein for the readouts. 
 
 #### Extension to other databases
-The current database is ~20K human protein as a fasta file inside `data` directory. If you prefer a different database, please edit the database location inside `functions/hmmer.py` file to the location of your database. 
+The current database is ~20K human proteins as a fasta file inside `data` directory. If you prefer a different database, please edit the database location inside `functions/hmmer.py` file to the location of your database. 
 
 If your readouts contains low amount of errors, you can also adjust the transition probabilites inside the `functions/hmmer.py` file.
 
 #### Citation
 If you use this tool, please cite: 
 
+- 
 
