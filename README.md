@@ -1,7 +1,6 @@
+This repository contains all the Jupyter notebooks and scripts to reproduce the results of the paper [Paper name](https://doi.org/). 
 
-
-# Scripts to reproduce results
-Paper: [Paper name](https://doi.org/)
+If you wish to use our method in your protein identification experiments, the [dist](dist/) directory contains a cleaned up version of the necessary files, a program implementation of our method, sample data and instructions to get you started.  
 
 ## Environment
 python 
@@ -48,6 +47,10 @@ The notebooks depend upon the data generated from other notebooks and scripts fo
 5. 03_combined_result_from_10_fragments.ipynb
 
 It is recommended to run these files in a __HPC environment__ with sufficient access to disk space, memory (200 - 300 GiB) and cores (~50). While the protein identification for a single sequence is fast, many of the scripts will attempt identification of each sequences in the database (N=20,181) for different combinations of parameters. Thus, some of the resulting files will be quite big and the process will take a long time. The scripts will also create several directories for temp files. There will be many temp files in those directores, but are cleared once the execution completes. This step will also take some time.
+
+### Funding
+[EU Horizon 2020 grant agreement no. 964363](https://cordis.europa.eu/project/id/964363)
+
 
 ### Citation
  - 
