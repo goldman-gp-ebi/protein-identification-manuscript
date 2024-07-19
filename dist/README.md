@@ -33,7 +33,7 @@ Basic options:
 ```
 
 #### Input files 
-The input files are the decoded readouts from the sequencing device i.e.. they are the posterior probabilites of the signal after decoding. Therfore, this will be of size 20 x read length. Few sample reads are provided as csv. They look like 
+The input files are the decoded readouts from the sequencing device i.e.. they are the posterior probabilites of the signal after decoding. Therfore, this will be of size read length x 20. Few sample reads are provided as csv. For eg, this reading has length 434, therefore is a 434 x 20 matrix. 
 
 |     |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |   11 |   12 |   13 |   14 |   15 |   16 |   17 |   18 |   19 |
 |----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
@@ -65,6 +65,9 @@ The sequence with highest score is the likely protein for the readouts.
 The current database is ~20K human proteins as a fasta file inside `data` directory. If you prefer a different database, please edit the database location inside `functions/hmmer.py` file to the location of your database. 
 
 If your readouts contains low amount of errors, you can also adjust the transition probabilites inside the `functions/hmmer.py` file.
+
+### Funding
+[EU Horizon 2020 grant agreement no. 964363](https://cordis.europa.eu/project/id/964363)
 
 #### Citation
 If you use this tool, please cite: 
