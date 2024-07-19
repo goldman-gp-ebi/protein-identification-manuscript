@@ -1,4 +1,4 @@
-This directory contains the scripts which will identify proteins from a database at `data/uniprot-9606.fasta`. Given a decoded readout from a sequencing device (eg. `sample-reads-P30419.csv`), `main.py` will construct a HMM and scan the database to identify the protein corresponding to the readouts. Further instructions on setting the environment and running the program are given below. 
+This directory contains the scripts suitable for protein sequencing experiments which will identify proteins from a database  `data/uniprot-9606.fasta`. Given a decoded readout from a sequencing device (eg. `sample-reads-P30419.csv`), `main.py` will construct a HMM and scan the database to identify the protein corresponding to the readouts. Further instructions on setting the environment and running the program are given below. 
 
 ## Usage
 #### Environment
