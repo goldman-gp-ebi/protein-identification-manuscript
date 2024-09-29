@@ -3,6 +3,13 @@ import sys
 import argparse
 from functions.hmmer import *
 
+'''
+Bikash Kumar Bhandari, Nick Goldman, 
+A generalized protein identification method for novel and diverse sequencing 
+technologies, NAR Genomics and Bioinformatics, Volume 6, Issue 3, September 2024,
+lqae126, https://doi.org/10.1093/nargab/lqae126
+'''
+
 def check_arg(args=None):
     '''arguments.
     '''
