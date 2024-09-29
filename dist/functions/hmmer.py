@@ -7,6 +7,13 @@ import pyhmmer
 from pyhmmer.plan7 import HMM, Background, Pipeline, HMMFile
 from pyhmmer.easel import SequenceFile
 
+'''
+Bikash Kumar Bhandari, Nick Goldman, 
+A generalized protein identification method for novel and diverse sequencing 
+technologies, NAR Genomics and Bioinformatics, Volume 6, Issue 3, September 2024,
+lqae126, https://doi.org/10.1093/nargab/lqae126
+'''
+
 
 aa = 'ACDEFGHIKLMNPQRSTVWY'
 
