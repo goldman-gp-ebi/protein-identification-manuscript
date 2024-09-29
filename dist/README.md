@@ -33,7 +33,7 @@ Basic options:
 ```
 
 #### Input files 
-The input files are the decoded readouts from the sequencing device i.e.. they are the posterior probabilites of the signal after decoding. Therfore, this will be of size read length x 20. Few sample reads are provided as csv. For eg, this reading has length 434, therefore is a 434 x 20 matrix. 
+The input files are the decoded readouts from the sequencing device i.e.. they are the posterior probabilites of the signal after decoding. Therfore, this will be of size read length x 20. Few sample reads are provided as csv. For eg, this reading has length 434, therefore is a 434 x 20 matrix (headers 0, 1, .., 19 shown below for clarity and should not be in the readings). 
 
 |     |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |   11 |   12 |   13 |   14 |   15 |   16 |   17 |   18 |   19 |
 |----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
@@ -72,5 +72,5 @@ If your readouts contains low amount of errors, you can also adjust the transiti
 #### Citation
 If you use this tool, please cite: 
 
-- 
+- Bikash Kumar Bhandari, Nick Goldman, A generalized protein identification method for novel and diverse sequencing technologies, NAR Genomics and Bioinformatics, Volume 6, Issue 3, September 2024, lqae126, https://doi.org/10.1093/nargab/lqae126
 
