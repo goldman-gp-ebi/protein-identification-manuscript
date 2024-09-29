@@ -1,4 +1,4 @@
-This repository contains all the Jupyter notebooks and scripts to reproduce the results of the paper [Paper name](https://doi.org/). 
+This repository contains all the Jupyter notebooks and scripts to reproduce the results of the paper [A generalized protein identification method for novel and diverse sequencing technologies](https://doi.org/10.1093/nargab/lqae126). 
 
 If you wish to use our method in your protein identification experiments, the [dist](dist/) directory contains a cleaned up version of the necessary files, a program implementation of our method, sample data and instructions to get you started.  
 
@@ -53,4 +53,4 @@ It is recommended to run these files in a __HPC environment__ with sufficient ac
 
 
 ### Citation
- - 
+ - Bikash Kumar Bhandari, Nick Goldman, A generalized protein identification method for novel and diverse sequencing technologies, NAR Genomics and Bioinformatics, Volume 6, Issue 3, September 2024, lqae126, https://doi.org/10.1093/nargab/lqae126
